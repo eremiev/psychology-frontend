@@ -19,9 +19,17 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
+        "styles.css",
+        "./assets/css/bootstrap.min.css",
+        "./assets/css/animations.css",
+        "./assets/css/fonts.css",
+        "./assets/css/main.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "../src/assets/js/compressed.js",
+        "../src/assets/js/main.js",
+        "../src/assets/js/vendor/modernizr-2.6.2.min.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
